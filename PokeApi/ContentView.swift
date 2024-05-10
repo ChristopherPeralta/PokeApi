@@ -23,7 +23,8 @@ struct ContentView: View {
             ScrollView{
                 LazyVGrid(columns: numberOfColumns) {
                     ForEach(viewModel.filteredPokemon, id: \.self) { pokemon in
-                        PokemonCellView(pokemon: pokemon, viewModel: viewModel)
+                        NavigationLink(destination: PokemonDetailView(pokemon: pokemon)){ PokemonCellView(pokemon: pokemon, viewModel: viewModel)
+                        }
                     }
                 }
                 .padding(20)

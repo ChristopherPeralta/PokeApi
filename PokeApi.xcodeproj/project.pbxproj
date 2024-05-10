@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D70D2032BEE9316008E9381 /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D70D2022BEE9316008E9381 /* PokemonDetailView.swift */; };
 		9DF2C62F2BED0D4500807BB6 /* PokeApiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2C62E2BED0D4500807BB6 /* PokeApiApp.swift */; };
 		9DF2C6312BED0D4500807BB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2C6302BED0D4500807BB6 /* ContentView.swift */; };
 		9DF2C6332BED0D4600807BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF2C6322BED0D4600807BB6 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D70D2022BEE9316008E9381 /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
 		9DF2C62B2BED0D4500807BB6 /* PokeApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF2C62E2BED0D4500807BB6 /* PokeApiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeApiApp.swift; sourceTree = "<group>"; };
 		9DF2C6302BED0D4500807BB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				9DF2C63E2BED11B600807BB6 /* PokemonModel.swift */,
 				9DF2C6422BED21CD00807BB6 /* PokemonViewModel.swift */,
 				9DF2C6442BED43BF00807BB6 /* PokemonCellView.swift */,
+				9D70D2022BEE9316008E9381 /* PokemonDetailView.swift */,
 			);
 			path = PokeApi;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				9DF2C6432BED21CD00807BB6 /* PokemonViewModel.swift in Sources */,
 				9DF2C6312BED0D4500807BB6 /* ContentView.swift in Sources */,
 				9DF2C62F2BED0D4500807BB6 /* PokeApiApp.swift in Sources */,
+				9D70D2032BEE9316008E9381 /* PokemonDetailView.swift in Sources */,
 				9DF2C63F2BED11B600807BB6 /* PokemonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
